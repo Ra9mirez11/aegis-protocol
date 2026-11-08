@@ -1,0 +1,52 @@
+<svg width="512" height="512" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="55%" stop-color="#09090b" />
+      <stop offset="100%" stop-color="#052e22" />
+    </linearGradient>
+    <linearGradient id="aegisFacetLeft" x1="12" y1="6" x2="32" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="45%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+    <linearGradient id="aegisFacetRight" x1="32" y1="6" x2="52" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#0891b2" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="aegisInnerArmor" x1="32" y1="12" x2="32" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="coreTop" x1="22" y1="20" x2="42" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ecfdf5" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="coreLeft" x1="20" y1="26" x2="32" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="coreRight" x1="32" y1="26" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0e7490" />
+    </linearGradient>
+    <linearGradient id="edgeGlow" x1="32" y1="4" x2="32" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#34d399" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.7" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="url(#bgGrad)" />
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" stroke="#34d399" stroke-opacity="0.28" />
+
+  <path d="M32 5L10 14.5V31.5C10 45.2 19.4 55.4 32 60V5Z" fill="url(#aegisFacetLeft)" />
+  <path d="M32 5L54 14.5V31.5C54 45.2 44.6 55.4 32 60V5Z" fill="url(#aegisFacetRight)" />
+  <path d="M32 10.5L15 18V31.2C15 41.8 22.2 50.1 32 54.2C41.8 50.1 49 41.8 49 31.2V18L32 10.5Z" fill="url(#aegisInnerArmor)" stroke="url(#edgeGlow)" stroke-width="1" />
+  <polygon points="32,18 43,24.5 32,31 21,24.5" fill="url(#coreTop)" />
+  <polygon points="21,24.5 32,31 32,44.5 21,38" fill="url(#coreLeft)" />
+  <polygon points="43,24.5 32,31 32,44.5 43,38" fill="url(#coreRight)" />
+  <line x1="32" y1="5" x2="32" y2="60" stroke="#ffffff" stroke-opacity="0.35" stroke-width="0.9" />
+  <path d="M32 5L10 14.5V31.5C10 45.2 19.4 55.4 32 60C44.6 55.4 54 45.2 54 31.5V14.5L32 5Z" stroke="url(#edgeGlow)" stroke-width="1.2" stroke-linejoin="round" />
+</svg>
